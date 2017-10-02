@@ -6,5 +6,6 @@ images/*
 !images/LD36.jpg
 !images/LD362.jpg
 lib/*
+lib/css/*
 !lib/css/style.css
 
