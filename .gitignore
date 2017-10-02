@@ -1,0 +1,10 @@
+images/*
+!image/clarc1.jpg
+!images/favicon.ico
+!images/gradient.png
+!images/header1.png
+!images/LD36.jpg
+!images/LD362.jpg
+lib/*
+!lib/css/style.css
+
