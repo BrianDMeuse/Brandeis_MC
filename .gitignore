@@ -8,4 +8,6 @@ images/*
 lib/*
 lib/css/*
 !lib/css/style.css
+lib/js/*
+lib/xsl/*
 
