@@ -1398,3 +1398,8 @@ body{
 font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 font-size:12px;
 }
+
+#upgrade_note p{
+color:red;
+font-size:14px;
+}
