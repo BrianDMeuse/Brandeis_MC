@@ -46,9 +46,9 @@ select.multiple {
 }
 
 #ds-header-wrapper {
-    background-color: #1F3F5E;
-    color: white;
+    background: url('../../images/gradient.png');
     min-width: 950px;
+    height:72px;
 }
 
 #ds-header-logo-link {
@@ -58,10 +58,9 @@ select.multiple {
 
 #ds-header-logo {
     float:left;
-    width: 48px;
-    height: 50px;
-    margin-top: 10px;
-    background: url('../../images/dspace-logo-only.png');
+    width: 100%;
+    height: 72px;
+    background: url('../../images/header1.png');
     background-repeat: no-repeat;
     background-color: transparent;
     margin-right: 15px;
@@ -155,6 +154,12 @@ select.multiple {
     float: left;
 }
 
+#ds-footer-center {
+    text-align:center;
+    font-size:8px;
+    margin-top:10px;
+}
+
 #ds-footer-right {
     float:right;
 }
@@ -179,6 +184,7 @@ select.multiple {
 }
 
 #ds-footer-links {
+    text-align: center;
     clear: left;
 }
 
@@ -225,6 +231,10 @@ h1.ds-option-set-head {
 div.ds-option-set {
     border: 1px solid #d8e8eb;
     border-top: none;
+}
+
+ul.ds-simple-list {
+     list-style: none; 
 }
 
 div.ds-option-set ul {
@@ -1372,4 +1382,19 @@ table.discovery-filters th.new-filter-header
 
 .searchTime{
     color: #999999;
+}
+
+.image_center {
+      width:98%;
+      border:0;
+}
+
+.caption{
+font-size:10px;
+text-align:center;
+}
+
+body{
+font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+font-size:12px;
 }
